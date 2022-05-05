@@ -23,3 +23,6 @@ export const config = {
     secret: process.env.JWT_SECRET,
   },
 };
+console.log(
+  `connected to ${config.database} on ${config.dbport} from HOST: ${config.host}`
+);
