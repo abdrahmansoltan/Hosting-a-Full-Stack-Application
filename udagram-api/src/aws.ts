@@ -1,7 +1,13 @@
 import AWS = require("aws-sdk");
 import { config } from "./config/config";
 
-//Credentials are auto set according to the documentation https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/setting-credentials-node.html and the default profile is "Default anyway"
+// Configure AWS
+const credentials = new AWS.Credentials({
+  accessKeyId: config.aws_access_key,
+  secretAccessKey: config.aws_secret,
+});
+
+AWS.config.credentials = credentials;
 
 export const s3 = new AWS.S3({
   signatureVersion: "v4",
