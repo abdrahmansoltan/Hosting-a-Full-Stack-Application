@@ -20,7 +20,7 @@ AWS RDS PostgreSQL Database info Sequelize:
 
 ## Elastic Beanstalk
 
-EB URL: [ http://Udagram-env.eba-5psjdw4u.us-east-1.elasticbeanstalk.com](http://Udagram-env.eba-5psjdw4u.us-east-1.elasticbeanstalk.com)
+EB URL: [http://Udagram-env.eba-5psjdw4u.us-east-1.elasticbeanstalk.com](http://Udagram-env.eba-5psjdw4u.us-east-1.elasticbeanstalk.com)
 
 ![eb](../screenshots/eb.PNG)
 
