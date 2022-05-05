@@ -1,0 +1,36 @@
+# Continuous Integration
+
+The developers regularly Pushes code changes into a repository, then the automated builds and tests are run.
+
+- Continuous integration refers to the (**build and unit testing**) stages of the software release process. Every revision that is committed triggers an automated build and test.
+
+## Pipeline Architecture
+
+![pipeline](./Pipeline%20architecture.jpg)
+
+- HQ Original Diagram Link: [Here](https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Pipeline%20architecture.drawio#R7V1td6O2Ev41%2BWgfQLz5o1%2B76dm2aXP39u4nH9koWA1GrsCOvb%2B%2BEiADQg7kxjh2ijdnA4MAoZnnmdFocO7AeL3%2FicLN6hfioeDO0Lz9HZjcGYahAYf94pJDKtGBq6USn2Ivk%2BWCR%2FwDZULRbIs9FJUaxoQEMd6UhUsShmgZl2SQUvJSbvZEgvJdN9BHFcHjEgZV6Z%2FYi1eZVLcH%2BYEvCPur7NaukT3xGorG2ZNEK%2BiRl4IITO%2FAmBISp1vr%2FRgFfPTEuKTnzU4cPXaMojBucsK36Y%2BHb8Phb%2Fd01sOR61tj5%2B%2Be7ljpdXYw2GaPPPzzkQnGAdl6Wc%2FjgxiODcFhnAypNWI%2F7I5j7c5iR8Z8r29YkkDed8oCvbrHr1EWyPtOWaDLl9el%2B%2BtyBwuCyl7p8pp0f63QQfYDRmQbBzhE46PxaUy4itcB29TZ5ssKx%2BhxA5d8%2BF4YRJjsiYRxZue6IfazEeanMzvZ8O313ueY6sOXyOz7lGz5yT69Z5auPDpnm%2FMl19ocBqwvox2iMWaWPAywz0%2BJCb8CzPYC9MQbRaxzOPS%2FJnsTwDvgwWiFvKw3AVygYASXz%2FweoTcmAaGJKYCn5MOasA7FkI0CzR46sRFEpzuUmoqWtAkCuInw4viYFC23NMI79AeK0tHg0qpRZ3bOHwbtC6LMyH9CZI1iemBNBOmYGeAyyulZVobVlxzAjpU1WhWxC7KGMCMN%2F3jxHFdsI4OWGmbk%2BXvPP3yJfj%2BsFvvt%2FvuczH7uAbeCsgq0omcUL1fZOChxpsSaCm9KzFVxV2qWIEFxB1mokjlVoV5tJsBTFapkKqaQz9YVZ%2BvS2adxyoFXsGf2b8ZVyjAGPYxKx8yJww4Wjk0ws98YJ1AMCeVmNXrCQVA4h33M0YBDLKbkGamQU0KagOtXjrgHEuHs8gsSx2Rdi%2Bcl4qAr008d1cBokw7HE97zfqi5h6KIbOkSpczDgBupOGhJ1msYenM%2BzvOEAJ4S2lNAusYTNUY6MAZ9q4R1fdDXnSrY9SrWhezsUDcGCqjbCSEv2IbPN%2B7DKIbJpTJf%2B%2FX%2BjnvvGft%2FOhLN2f7xjApbsCGKy8quGIJsL2vsefx0rkH8A%2BZUXCYbjhe4jUnGynrFgkMSIsnchahgb26rqje1suLBoG%2Fbg%2FxjV4xAHygYH2jvt4ITj%2BScNAM%2BSiVl2n9viTjQS4d9yBro7mafH8wtQTKm4Rr%2BYHA0tEdwPEbFwdF2ydyK2qKOsrRDJwztXdSpMBXe3HFYAH3Krq6OFOV4Rj9FlIt0sBsFTS1CwzJK0LCV4Y%2BCEd2WGNHWFVDogp%2BbCX5mjjvVzLcFPxPNGjNP%2FG8JflAAI9a9%2BQLBxLU%2Ft4pw3R3UI9y9IMIFoF%2BLeabpELFWo%2BMgdYFOva5Ns6Rrx6zqWrdbCm3UdF7P5sjzkYAa5wfikxAG01w6SvziEf15m6%2BE4zrRxV8ojg%2FZIHM1nUa3WgOZ10nh%2B8rziKwipD6KX2mXqY4%2F26uKo4wMYrwr5w%2FPrgWVT5UQd554c4J2KCAbRKOTEWMDFJf8u9IhnQody37KMq2RbTZBKmvsOgN9YN%2BMq2Gd37LHgrw%2F823ER1wVfL4%2FQ2Yb0rS5Z4h0WIFVVPOlQVukUs1CV0yopMS6xGtFW4Gk7YrzeKM5yBp8QYuAUVjU93G82i7ewlDNFefImU0xC64L7a2W1HZ6knukgodvj18%2Bs6N%2FsxKBpESgwJ5zSYeuSljdskN3b9OhO%2F%2BOUdeNqxr2JgszGdXjdbJWXBw%2BtW%2BodSkN8kPJzYYiblAGEVl%2FJqs45ovhwyR%2FPFt6odHHbI76hJlpUJ6XZ1IPxpD94vKIN4qi3o4EPIqcGSYXYLoM0BIz9bj9Tei3Q322lSQxiuznuMccfoH%2FXLOvcGO59Pzo0%2Bo92ZhiNka98X3nzgo67RmOHE06LMA0qkptKwGvVmiDCdJ%2FKPb98sSm06cux5iKtZSLatK4cccoHF6tZxSFQlfiGUW%2FG6ftW1gpAjPXNk5O969uWt94pQiTeA6ZOR5Yj6L5Bm8QH7nzANiS618cV0nHOlCg2GmNj1WBlsTHjwwiPFP1IMaj4%2BVcrZXJv%2BNYfddtptb23GyDaodHvgCtfduwfbjmmAsXEf81DXeYsn6EMeT3%2BS%2BkmOuic8cltWuy2k2jb4OK2g33kmoHN54iEK621ieLwr3z%2BeTs1Aduc4WZkWZLYRew5MlO2tnsREmBx568I85STYEkJStdfNtuWOFBQR%2BGHiX8eSpJ%2F%2FHYNmevRBjnx6glisGF8mxVSg%2Bop7RtRc0N5j95GdqvxEP9vzrmLdXRGLJWjSrt6uZFp0KgXqkTtAkIf4wZZWMyDb1OqUV3aks8qygUvOhqumHWq3S0xYHXafRUXGyUNaqDQX9Q%2FJhVFauq%2F9sLluyPCJbYiNLD%2F%2Fj5zO9ku9%2BzyyU7k31p71Dce0AUs4dPXunQFHpDexwXrs32vovbsu38ynznUNiRr%2Fv%2FR3Cg6XoDOPsyT8MIzmQen3HJ8SNdMX3C1qI50IBXxnyRwN9SNtFOC9E7Wsm9vy55f1O3%2B1rxo%2FAcl6WV686LXgBv8roD0KQCxxMzpkbXci%2BM1wYVMF2RdEl2XUXSlslLM99UJD12dKDPKjz3WYukn9FhvoYh9BHP%2Bc0jRHf4xBtib5%2BCO0Cia1CdgttOlZ6F7Pxlsg2WT66Jr%2BsjrkHDiMs%2Buwd4n59sUN%2FUMev1Mmv37m2Dd28ZR6R5n3ZSXwoyvegLJmYDDN8UmYq0Yf30dXBVZCr63ZFpR6afmEwXSca1HS495pc%2FjEyvO3FQz52XyjDIpXBALJHW5BeGlMJDoVnGgSdvZNqu%2Bka5ltNLnjXjYDYofb5Ju6j1qcKJXYtP7d6P73zq5%2FapnniJdM6%2FvC9qybMea6A%2BzLOCG2dQ40KeVS5qa8uzOpWJ7CU8q9Ugl3%2BTdlH%2FSp15XZ61QQ6286ydZ%2B08q%2FSe3kDi5w%2F3rGJlvUnlW7nK%2FLXvPssrrODyuSuskr5sQDaCjy6VsxqUtIpSuU6hVYW6ogTpLZVyF61vtVUov%2BXASXwVXzFwev37Iq8kchId7yKnLnL6pJHTuRdNK0HTRy%2BaWqq3BW6aTc2m09Cz5zHepwhVLW5Hph2Zfi4yPeOiaYVLP3zR1FJ97eXJ9%2Bke2PQD%2Bt2rzOUJpSsp1TDr5x%2BXnWE2%2BD67TsmvKtkQye%2F8qyXNSymZ7eZ%2FTilN5ud%2FlQpM%2FwE%3D)
+
+---
+
+## GitHub
+
+The developer commit and push the code to the GitHub repository, which is linked to the CircleCI platform. GitHub triggers the CircleCI platform when code is pushed to the repository.
+
+---
+
+## CircleCI
+
+CircleCI automatically runs the build and test processes whenever the developer commit code, and then displays the build status in the GitHub branch.
+First step is to create a `config.yml` in the project’s root directory and CircleCI will read it each time it runs a build.
+
+- Frontend: Runs the script in the `package.json` file. Then the command in `deploy.sh` will run to upload the frontend asstes to S3 bucket.
+- API: Runs the script in `package.json`. Then the command in `deploy.sh` will run to set the env variables to EB which are configured inside CircleCi and passed to the production application. Finally EB will upload the archive file to deploy the server by AWS CLI.
+
+### Environment Variables
+
+![env](../screenshots/env.PNG)
+
+### build in CircleCi
+
+![circleci](../screenshots/ci1.PNG)
+![circleci](../screenshots/ci2.PNG)

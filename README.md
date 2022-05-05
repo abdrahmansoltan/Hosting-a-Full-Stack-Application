@@ -1,5 +1,7 @@
 # Hosting-a-Full-Stack-Application
 
+[![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://circleci.com/gh/circleci/circleci-docs)
+
 <div id="top"></div>
 
 ![node](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
@@ -173,50 +175,11 @@ This project require some prequesites and dependenscies to be installed, you can
 
 ## Screenshots
 
-## Running Locally
+### Running Locally
 
 ![local](./screenshots/locally.PNG)
 
-## Database: RDS DB
-
-AWS RDS PostgreSQL Database info Sequelize:
-
-- postgres://postgres:postgres@[database-2.cobsdpmu9g5k.us-east-1.rds.amazonaws.com](database-2.cobsdpmu9g5k.us-east-1.rds.amazonaws.com):5432/postgres
-
-  ![rds](./screenshots/rds.PNG)
-
-- connection status
-
-  ![rds](./screenshots/rdsConn.PNG)
-
----
-
-## Elastic Beanstalk
-
-![eb](./screenshots/eb.PNG)
-
----
-
-## S3 Bucket
-
-![s3](./screenshots/s3.PNG)
-
----
-
-## CI/CD pipeline
-
-### Environment Variables
-
-![env](./screenshots/env.PNG)
-
-### build in CircleCi
-
-![circleci](./screenshots/ci1.PNG)
-![circleci](./screenshots/ci2.PNG)
-
----
-
-## Final results
+### Running on S3
 
 App is running globally on [http://abdelrahmansoltan8568954.s3-website-us-east-1.amazonaws.com/](http://abdelrahmansoltan8568954.s3-website-us-east-1.amazonaws.com/)
 ![apprunning](./screenshots/runs3.PNG)
