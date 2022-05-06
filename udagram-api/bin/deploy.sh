@@ -1,4 +1,4 @@
-eb init udagramfs --platform node.js --region us-east-1
+eb init udagram_fullstack --platform node.js --region us-east-1
 eb use Udagramfullstack-env
 eb deploy
 
