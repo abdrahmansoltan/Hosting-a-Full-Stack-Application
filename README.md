@@ -1,6 +1,4 @@
-# Hosting-a-Full-Stack-Application
-
-[![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://circleci.com/gh/circleci/circleci-docs)
+# Hosting a Full Stack Application
 
 <div id="top"></div>
 
@@ -13,10 +11,9 @@
 ![Circle-CI](https://img.shields.io/badge/circleci-343434?style=for-the-badge&logo=circleci&logoColor=white)
 
 <!-- PROJECT LOGO -->
-<br />
 <div align="center">
 
-  <h3 align="center">Hosting-a-Full-Stack-Application</h3>
+  <h2 align="center">Hosting a Full Stack Application</h2>
 
   <p align="center">
   <a href="http://abdelrahmansoltan8568954.s3-website-us-east-1.amazonaws.com/">View Demo</a>
@@ -42,6 +39,7 @@
       </ul>
     </li>
     <li><a href="#screenshots">Screenshots</a></li>
+    <li><a href="#cicd">CI/CD</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -54,6 +52,10 @@
 In this project it's required to take a newly developed Full-Stack application built for a retailer and deploy it to a cloud service provider so that it is available to customers.
 
 By Taking a developed full stack application and deploying it to a cloud service provider so that it is available to customers. This application contains the main components of a 3-tier full stack application (UI, API, and Database).
+
+[AWS Infrastructure Description](./documentation/Infrastructure%20description.md)
+
+![ARC](./documentation/Architecture%20Diagram.PNG)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -183,6 +185,16 @@ This project require some prequesites and dependenscies to be installed, you can
 
 App is running globally on [http://abdelrahmansoltan8568954.s3-website-us-east-1.amazonaws.com/](http://abdelrahmansoltan8568954.s3-website-us-east-1.amazonaws.com/)
 ![apprunning](./screenshots/runs3.PNG)
+
+---
+
+## CI/CD
+
+[![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://circleci.com/gh/circleci/circleci-docs)
+
+- [Pipeline process](./documentation/Pipeline%20process.md)
+
+![cicd](./documentation/Pipeline%20architecture.jpg)
 
 ---
 
